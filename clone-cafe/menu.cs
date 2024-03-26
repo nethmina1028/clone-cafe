@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace clone_cafe
 {
-    public partial class employee : UserControl
+    public partial class menu : UserControl
     {
-        public employee()
+        public menu()
         {
             InitializeComponent();
         }
