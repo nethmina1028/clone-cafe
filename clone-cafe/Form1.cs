@@ -12,14 +12,42 @@ namespace clone_cafe
 {
     public partial class Form1 : Form
     {
+        //timer
+        private Timer timer;
+
         public Form1()
         {
             InitializeComponent();
             sidepanel.Height = btn_home.Height;
             sidepanel.Top = btn_home.Top;
-            
 
+
+
+            timer = new Timer();
+            timer.Interval = 1000; // Update every second (1000 milliseconds)
+            timer.Tick += Timer_Tick; // Attach event handler
+            timer.Start(); // Start the timer
+
+            // Set initial value for the label
+            UpdateLabel();
+
+
+            
         }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            // Update the label on every tick
+            UpdateLabel();
+        }
+
+        private void UpdateLabel()
+        {
+            // Update the label text with current date and time
+            lbl_dateTime.Text = DateTime.Now.ToString();
+        }
+
+
 
         private void btn_home_Click(object sender, EventArgs e)
         {
@@ -113,6 +141,19 @@ namespace clone_cafe
             if (check == DialogResult.Yes)
             {
                 Application.Exit();
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            DialogResult check = MessageBox.Show("Are you sure!", "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (check == DialogResult.Yes)
+            {
+                login login = new login();
+                login.Show();
+                this.Hide();
+                
             }
         }
     }

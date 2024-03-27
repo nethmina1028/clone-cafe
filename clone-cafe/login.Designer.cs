@@ -130,7 +130,7 @@
             this.login_password.IconLeftOffset = new System.Drawing.Point(10, 0);
             this.login_password.Location = new System.Drawing.Point(297, 211);
             this.login_password.Name = "login_password";
-            this.login_password.PasswordChar = '\0';
+            this.login_password.PasswordChar = '*';
             this.login_password.PlaceholderText = "   PASSWORD";
             this.login_password.SelectedText = "";
             this.login_password.ShadowDecoration.Parent = this.login_password;
