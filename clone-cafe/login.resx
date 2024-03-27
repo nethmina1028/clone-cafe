@@ -121,7 +121,7 @@
   <data name="pictureBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIcAAABrCAYAAABdYZHzAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAABzBJREFUeF7tnYt12zgQRV1CSkgJKWFLSAdJCekg6SDpwNvBpoOkg2wH2Q5Sgvc+
+        EAAACxABrSO9dQAABzBJREFUeF7tnYt12zgQRV1CSkgJKWFLSAdJCekg6SDpwNvBpoOkg2wH2Q5Sgvc+
         EaTgMX8iZXIAzD0Hx7JAkYPhE74D6kE8PT19IP3emX6RHknvLycN6oAbem8klrfp9EGpcBPfkP7ojt6Z
         EEgNcBPfk/4l/bcjjfEjXSJoHcTwqdPEM/5K2UHrIAYrkKg9gisIIu/D6PWblBW0DmL4+yKLK9G0BB0S
         Q6eJgceUFbQOYrDD4z8pKwguAvnR6WIgmpagAzF87DQx8C1lBa2DGNS05PxOWUEQTUswA2KwE2JfUlbQ
@@ -155,20 +155,20 @@
         ZbEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="guna2TextBox2.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="login_username.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAAOtJREFUSEvtktENgkAQRCmBEijBEiiBDrQES6AEO8AS7AA6oATtgBLON8l4iSHA
+        EAAACxABrSO9dQAAAOtJREFUSEvtktENgkAQRCmBEijBEiiBDrQES6AEO8AS7AA6oATtgBLON8l4iSHA
         Hf5o4iSTMLe7c8vuFX8kI4RwgD2c4B12sHJ4HzBobHiGJdQlLdQF+81t0FhG2Ly3zAOF6m60fAPn6n6y
         zMOasUAs+DMf6koXWEZwdoKDZT4o1tI059pHOtNCP1uegIG6k5G6Fwc4+4vdwEwLKy2/DO5OI9hinP0m
         SD7C1yyvG1SO5r8+cxIqJyZvnFx1rkaW50/wpkTLZFBzga3lHARHmP2U1AzsLOcg+IDZDz/FWKPIfqvU
         1HB5FD+AongCEak6SN16OIYAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="guna2TextBox3.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="login_password.IconLeft" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAANJJREFUSEvtle0NgkAQRK8ESqAES6AES6AESrADLcES7AA7oARKsAR8Y8aE5I7I
+        EAAACxABrSO9dQAAANJJREFUSEvtle0NgkAQRK8ESqAES6AES6AESrADLcES7AA7oARKsAR8Y8aE5I7I
         4g+jcZKXsLe3w9cQ0kc1TVMFjam8vF2Y1NDDDa5GOsK2EzAo0xFOcxOvn2HwUkwePrjMRE93sthfFENS
         7TITPT3v3uU6yRBGl0Wt2ZPpe4zZqLy20IEipuMl5nv2UH4fNPQyFC+lIcoFNJubs6j4tC7DYlZ5z+Nn
         48ZlWDL9Gz/0W8bKYucyLGaV56LxDhRyXXmUAcofiKQGPH9BUd7/Zb1WSneYXeTVKWeCKQAAAABJRU5E
