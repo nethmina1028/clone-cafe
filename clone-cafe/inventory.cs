@@ -21,11 +21,21 @@ namespace clone_cafe
         public inventory()
         {
             InitializeComponent();
-           
+            displayInventoryData();
+
+
         }
 
 
 
+        //Show all database details
+        public void displayInventoryData()
+        {
+            inventoryData ed = new inventoryData();
+            List<inventoryData> listData = ed.employeeListData();
+
+            guna2DataGridView1.DataSource = listData;
+        }
 
 
 
@@ -150,7 +160,28 @@ namespace clone_cafe
             {
                 MessageBox.Show("Error:" + ex, "Error Message"
                     , MessageBoxButtons.OK, MessageBoxIcon.Error);
+           
             }
+        }
+
+
+
+
+
+
+        public void clearField()
+        {
+            inven_pID.Text = "";
+            inven_pName.Text = "";
+            inven_type.SelectedIndex = -1;
+            inven_price.Text = "";
+            inven_stock.Text ="";
+            inven_Pic.Image = null;
+        }
+
+        private void btn_empClear_Click(object sender, EventArgs e)
+        {
+            clearField();
         }
     }
 }

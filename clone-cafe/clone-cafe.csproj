@@ -91,6 +91,7 @@
     <Compile Include="inventory.Designer.cs">
       <DependentUpon>inventory.cs</DependentUpon>
     </Compile>
+    <Compile Include="inventoryData.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
